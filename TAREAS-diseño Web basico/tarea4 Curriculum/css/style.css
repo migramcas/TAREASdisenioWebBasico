@@ -1,0 +1,116 @@
+
+body{
+	margin: 0px;
+}
+
+
+.encabezadoNombre{
+	background: #247FCD;
+	color:#EFEEEE;
+	margin:-20px;
+	text-align: center;
+	border:8px;
+		border-width: 4px;
+	border-style: dotted;
+	border-color: black;
+
+
+}
+
+.encabezadoNombre h1{
+	font-style: oblique;
+	font-size: 39px;
+}
+
+.menuGeneral li{
+	list-style: none;
+	display: inline;
+}
+
+
+.menuGeneral{
+	
+	text-align: center;
+	font-style:  oblique;
+	color:white;
+
+}
+
+.menuGeneral a{
+	display:inline-block;
+	margin: 10px;
+	background-color:  #247FCD;
+	width: 160px;
+	padding: 1%;
+	text-align: center;
+	border-bottom-width: 3px;
+	border-top-width: : 0px;
+	border-right-width:  0px;
+	border-left-width: 0px;
+	border-style:solid;
+	border-color: black;
+	
+}
+
+.menuGeneral li:hover a{
+	background: red;
+	/*Cambia el color cuando se pasa el mouse*/
+}
+
+li.activo a{
+	background: red;
+}
+
+.presentacion{
+	text-align: center;
+
+}
+
+.presentacion li{
+	list-style: none;
+}
+
+
+
+
+.escuela{
+	text-align: justify;
+	
+	margin-left: 200px;
+
+}
+
+.escuela img{
+	width: 300px;
+	height: 300px;
+}
+
+.escuela table{
+	display: inline-block;
+}
+
+
+.footer{
+	background: #247FCD;
+	color: white;
+	padding:5%;
+	text-align: left;
+}
+
+.footer li{
+	display: inline;
+	margin:5%;
+	text-align:center;
+	width: 160px;
+
+}
+
+
+.footer a{
+	background-color: #F0F782;
+	text-decoration: none;
+	padding: 1%;
+	text-align:center;
+	color:black;
+
+}
